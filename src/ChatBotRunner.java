@@ -3,16 +3,22 @@ public class ChatBotRunner {
     public static void main (String [] args) {
         Scanner scan = new Scanner (System.in);
 
-        //use of greeting
+        //use of both greetings
         ChatBot chatBot1 = new ChatBot("Debbie", 2);
         chatBot1.greeting("Bonnie");
+        chatBot1.greeting2();
         System.out.println();
 
         //use of weather
-        System.out.println("I'm good! How's the weather today?");
+        System.out.println("I'm good! Not doing much rn. How's the weather today?");
         System.out.println();
         chatBot1.weather();
         System.out.println();
+
+        //use of method transportation
+        chatBot1.transportation("bus");
+        System.out.println();
+
 
         //use of favoriteNumbers
         chatBot1.favoriteNumber(4);

@@ -44,4 +44,17 @@ public class ChatBot {
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
     }
+
+    //method that asks for your favorite food
+    public String greeting2() { return "What are you doing right now?"; }
+
+    //method that prints information about travel method of getting to school
+    public void transportation (String methodOfTransportation) {
+        System.out.println("I get to school by " + methodOfTransportation);
+        System.out.println("Cool! That's different from how I get to school!");
+    }
 }
+
+
+
+
